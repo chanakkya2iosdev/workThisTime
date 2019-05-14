@@ -9,5 +9,5 @@
 echo "$GIT_COMMIT"
 echo "$GIT_BRANCH"
 echo "$GIT_LOCAL_BRANCH"
-echo "works now"
+echo "works now yayy"
 
