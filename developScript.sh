@@ -8,7 +8,7 @@
 cd CI-CDApp
 echo "build"
 echo "$PWD"
-xcodebuild clean build -project CI-CDApp.xcodeproj -scheme CI-CDApp CODE_SIGNING_REQUIRED=NO
+xcodebuild clean build -project CI-CDApp.xcodeproj -scheme CI-CDApp CODE_SIGNING_REQUIRED=NO -sdk iphonesimulator12.2
 #CODE_SIGNING_ALLOWED="NO"
 
 
