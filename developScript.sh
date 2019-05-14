@@ -8,4 +8,4 @@
 cd CI-CDApp
 echo "building"
 echo "$PWD"
-xcodebuild clean build -project CI-CDApp.xcodeproj -scheme CI-CDApp CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO
+xcodebuild clean build -project CI-CDApp.xcodeproj -scheme CI-CDApp CODE_SIGNING_REQUIRED=NO
