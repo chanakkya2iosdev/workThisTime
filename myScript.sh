@@ -8,8 +8,8 @@
 
 
 if [ $GIT_LOCAL_BRANCH == "develop" ];
-then developScript.sh
+then bash developScript.sh
 else
-otherBranch.sh
+bash otherBranch.sh
 fi
 
