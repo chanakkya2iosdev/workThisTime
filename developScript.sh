@@ -9,3 +9,4 @@ cd CI-CDApp
 echo "building"
 echo "$PWD"
 xcodebuild clean build -project CI-CDApp.xcodeproj -scheme CI-CDApp CODE_SIGNING_REQUIRED=NO
+-destination -ios simulator
