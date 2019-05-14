@@ -7,8 +7,8 @@
 #  Copyright © 2019 Hill-Rom. All rights reserved.
 
 
-if $GIT_LOCAL_BRANCH == "develop"
-sh developScript.sh
+if [ $GIT_LOCAL_BRANCH == "develop" ];
+then sh developScript.sh
 else
 sh otherBranch.sh
 fi
