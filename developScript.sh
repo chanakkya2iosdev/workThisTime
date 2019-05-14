@@ -7,5 +7,5 @@
 #  Copyright © 2019 Hill-Rom. All rights reserved.
 cd CI-CDApp
 echo "building"
-echo "$pwd"
+echo "$PWD"
 xcodebuild -project CI-CDApp.xcodeproj -scheme CI-CDApp
