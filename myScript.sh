@@ -10,6 +10,6 @@
 if [ $GIT_LOCAL_BRANCH == "develop" ];
 then sh developScript.sh
 else
-sh otherBranch.sh
+bash otherBranch.sh
 fi
 
