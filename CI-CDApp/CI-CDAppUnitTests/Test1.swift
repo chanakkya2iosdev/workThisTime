@@ -22,7 +22,7 @@ class Test1: XCTestCase {
     }
 
     func testExample() {
-       XCTAssertEqual(getSum.add(1, 2), 5) 
+       XCTAssertEqual(getSum.add(1, 2), 10) 
     }
 
     func testPerformanceExample() {
