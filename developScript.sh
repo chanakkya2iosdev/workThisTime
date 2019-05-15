@@ -5,6 +5,7 @@
 #
 #  Created by chanakya mathi on 4/23/19.
 #  Copyright © 2019 Hill-Rom. All rights reserved.
+set -e
 cd CI-CDApp
 echo "build"
 echo "$PWD"
