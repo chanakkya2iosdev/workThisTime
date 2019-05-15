@@ -9,4 +9,4 @@ set -eo pipefail
 cd CI-CDApp
 echo "build"
 echo "$PWD"
-xcodebuild -project CI-CDApp.xcodeproj -scheme CI-CDApp -sdk iphonesimulator CODE_SIGNING_ALLOWED="NO" clean test| xcpretty
+xcodebuild -project CI-CDApp.xcodeproj -scheme CI-CDApp -sdk iphonesimulator -destination "platform=iOS Simulator,name=iPhone 7,OS=latest" CODE_SIGNING_REQUIRED=NO COSECODE_SIGNING_ALLOWED="NO" clean build test| xcpretty
