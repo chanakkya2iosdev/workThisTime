@@ -8,6 +8,6 @@
 cd CI-CDApp
 echo "build"
 echo "$PWD"
-xcodebuild clean build test -project CI-CDApp.xcodeproj -scheme CI-CDApp -sdk iphonesimulator CODE_SIGNING_ALLOWED="NO"
+xcodebuild clean build test -project CI-CDApp.xcodeproj -scheme CI-CDApp -sdk iphonesimulator CODE_SIGNING_ALLOWED="NO" | xcpretty && exit ${PIPESTATUS[0]}
 
 
