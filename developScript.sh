@@ -8,6 +8,6 @@
 cd CI-CDApp
 echo "build"
 echo "$PWD"
-xcodebuild -project CI-CDApp.xcodeproj -scheme CI-CDApp -sdk iphonesimulator -destination "platform=iOS Simulator" CODE_SIGNING_ALLOWED="NO" clean build test| xcpretty
+xcodebuild -project CI-CDApp.xcodeproj -scheme CI-CDApp -sdk iphonesimulator -destination "platform=iOS Simulator, os=latest,name=iPhone 7" CODE_SIGNING_ALLOWED="NO" clean build test| xcpretty
 
 
