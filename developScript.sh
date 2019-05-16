@@ -9,6 +9,6 @@ set -eo pipefail
 cd CI-CDApp
 echo "building and testing"
 echo "$PWD"
-sleep 40s
+sleep 30s
 rm -rf DerivedData
 xcodebuild -project CI-CDApp.xcodeproj -scheme CI-CDApp -sdk iphonesimulator -destination "platform=iOS Simulator,name=iPhone 7,OS=latest" CODE_SIGNING_REQUIRED=NO COSECODE_SIGNING_ALLOWED="NO" -parallel-testing-enabled YES -parallel-testing-worker-count 4 -derivedDataPath DerivedData clean test build| xcpretty
